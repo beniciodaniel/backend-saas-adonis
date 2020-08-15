@@ -18,23 +18,6 @@ adonis new yardstick --api-only
 
 or manually clone the repo and then run `npm install`.
 
-### Model
-
-Run the following command to make models.
--m for migration
--c for controller
-```bash
-adonis make:model <name> -m -c 
-```
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```bash
-adonis migration:run
-```
-
 ### Creating a Postgres database using Docker
 
 Run the following command to create a postgres database with docker (with db, user and password set as "postgres")
@@ -61,3 +44,22 @@ DB_PASSWORD=postgres #edited
 DB_DATABASE=postgres #edited
 HASH_DRIVER=bcrypt
 ```
+
+### Model
+
+Run the following command to make models.
+-m for migration
+-c for controller
+```bash
+adonis make:model <name> -m -c 
+```
+
+### Migrations
+
+Run the following command to run startup migrations.
+
+```bash
+adonis migration:run
+```
+
+

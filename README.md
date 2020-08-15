@@ -36,12 +36,14 @@ APP_NAME=AdonisJs
 APP_URL=http://${HOST}:${PORT}
 CACHE_VIEWS=false
 APP_KEY=0kTmX6MG7BlExPPP5ES2w5bqJ747DmrK
-DB_CONNECTION=pg #edited
+#edited
+DB_CONNECTION=pg
 DB_HOST=127.0.0.1
-DB_PORT=5432 #edited
-DB_USER=postgres #edited
-DB_PASSWORD=postgres #edited
-DB_DATABASE=postgres #edited
+DB_PORT=5432
+DB_USER=postgres
+DB_PASSWORD=postgres
+#####
+DB_DATABASE=postgres
 HASH_DRIVER=bcrypt
 ```
 

@@ -42,9 +42,13 @@ DB_HOST=127.0.0.1
 DB_PORT=5432
 DB_USER=postgres
 DB_PASSWORD=postgres
-#####
 DB_DATABASE=postgres
+#####
 HASH_DRIVER=bcrypt
+
+SMTP_HOST= <from mailtrap>
+MAIL_USERNAME= <from mailtrap>
+MAIL_PASSWORD= <from mailtrap>
 ```
 
 ### Model
@@ -63,5 +67,9 @@ Run the following command to run startup migrations.
 ```bash
 adonis migration:run
 ```
+### Creating a Redis server with Docker
 
+```bash
+docker run --name redis -p 6379:6379 redis
+```
 

@@ -11,7 +11,7 @@ class Invite extends Model {
   }
 
   user () {
-    return this.belongsTo('App/Models/Users')
+    return this.belongsTo('App/Models/User')
   }
 
   team () {
